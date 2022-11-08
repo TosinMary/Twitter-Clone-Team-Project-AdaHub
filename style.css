@@ -1,0 +1,53 @@
+.widget-input{
+    display: flex;
+    align-items: center;
+    background-color: #e1e8ed;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    width: 390px;
+    
+    }
+    .widget-input input{
+        border: none;
+        background-color: #e1e8ed;
+        outline: none;
+        color: #aab8c2;
+        width: 380px;
+    }
+    .material-symbols-outlined{
+        color: #aab8c2;
+    }
+    .widget-trends-container{
+        width: 380px;
+        background-color: #f5f8fa;
+        border-radius: 8px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .widget-trends-section h3{
+        font-size: 24px;
+        font-weight: 900;
+    }
+    .widget-para{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .widget-para-icon{
+        color: #aab8c2;
+    }
+    .widd{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    .widget-text p, h4{
+        margin: 0;
+    }
+    .widget-text p{
+        color:#657786;
+    }
