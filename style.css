@@ -5,27 +5,23 @@
   }
   
   body {
-    --twitter-color: #50b7f5;
-    --twitter-background: #e6ecf0;
     display: flex;
     height: 100vh;
-    max-width: 1300px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 100%;
     padding: 0 10px;
   }
    
   .sidebar-container {
-    border-right: 1px solid var(--twitter-background);
+    border-right: 1px solid #e6ecf0;
     flex: 0.2;
-    min-width: 250px;
-    margin-top: 20px;
+    min-width: 350px;
+    position: fixed;
     padding-left: 20px;
     padding-right: 20px;
   }
   
   .fa-twitter {
-    color: var(--twitter-color);
+    color: #50b7f5;
     font-size: 30px;
   }
   
@@ -47,19 +43,19 @@
   }
   
   .sidebar:hover {
-    background-color: var(--twitter-background);
+    background-color: #e6ecf0;
     border-radius: 30px;
-    color: var(--twitter-color);
+    color: #50b7f5;
     transition: color 100ms ease-out;
   }
   
   .sidebar.active {
-    color: var(--twitter-color);
+    color: #50b7f5;
   }
   
   .btn {
     width: 100%;
-    background-color: var(--twitter-color);
+    background-color: #50b7f5;
     border: none;
     color: white;
     font-weight: 900;
@@ -68,7 +64,12 @@
     margin-top: 10px;
   }
   
-  
+section{
+  position: absolute;
+  left: 27.3%;
+  display: flex;
+}
+
 .feeds{
   flex: 0.5;
   border-left: 1px solid #e6ecf0;
@@ -276,10 +277,9 @@
     display: flex;
     align-items: center;
     background-color: #e1e8ed;
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
     margin-top: 5px;
-    margin-bottom: 8px;
     width: 390px;
     
     }
@@ -289,20 +289,23 @@
         outline: none;
         color: #aab8c2;
         width: 380px;
+        padding: 5px;
     }
     .material-symbols-outlined{
         color: #aab8c2;
     }
-    .widget-trends-container{
-        width: 380px;
+.widget-trends-container{
+        width: 100%;
         background-color: #f5f8fa;
         border-radius: 8px;
-        padding: 10px;
-        margin-top: 20px;
-    }
-    .widget-trends-section h3{
+        padding: 0 10px;
+        .margin-top: 20px;
+}
+.widget-trends-section h3{
         font-size: 24px;
         font-weight: 900;
+        margin: 0;
+        padding: 10px;
     }
     .widget-para{
         display: flex;
