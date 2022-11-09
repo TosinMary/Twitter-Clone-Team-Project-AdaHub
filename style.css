@@ -12,7 +12,6 @@
   }
    
   .sidebar-container {
-    border-right: 1px solid #e6ecf0;
     flex: 0.2;
     min-width: 350px;
     position: fixed;
@@ -299,7 +298,6 @@ section{
         background-color: #f5f8fa;
         border-radius: 8px;
         padding: 0 10px;
-        .margin-top: 20px;
 }
 .widget-trends-section h3{
         font-size: 24px;
