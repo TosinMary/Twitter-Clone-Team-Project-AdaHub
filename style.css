@@ -68,6 +68,210 @@
     margin-top: 10px;
   }
   
+  
+.feeds{
+  flex: 0.5;
+  border-left: 1px solid #e6ecf0;
+  border-right: 1px solid #e6ecf0;
+  min-width: fit-content;
+}
+
+.feeds .feeds_header{
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid rgba(101, 119, 134, 0.4);
+  padding: 15px 20px;
+  cursor: pointer;
+  background-color: rgba(226, 233, 238, 0.4);
+}
+/* 
+.feeds .feeds_header: */
+
+.feeds h2{
+  font-weight: 800;
+  margin: 0;
+  display: inline;
+}
+
+.feeds .home{
+  float: right;
+  cursor: pointer;
+}
+
+.feeds .home:hover{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(101, 119, 134, 0.4);
+}
+
+.user_profile{
+  display: flex;
+  padding: 5px;
+}
+
+.user_profile img{
+  border-radius: 50%;
+  height: 40px;
+}
+
+.tweet_box {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e6ecf0;
+  padding-right: 10px;
+  display: flex;
+}
+
+.tweet_box form {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.tweet_box .query{
+  flex: 1;
+  margin-left: 20px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+}
+
+.tweet_box .icons{
+  margin: 10px 0 10px;
+  display: flex;
+}
+
+.tweet_box .icons span:first-child{
+  margin-left: 45px;
+}
+
+.tweet_box .icons span{
+  margin: 10px;
+  color: rgb(29, 161, 242);
+  height:35px;
+  width: 35px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.tweet_box .icons span i{
+  position: absolute;
+  top: 6px;
+  left: 6px;
+}
+
+.tweet_box .icons span:hover{
+  background-color: rgba(29, 161, 242, 0.3);
+  cursor: pointer;
+}
+
+.tweet_box .tweet_btn{
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #f5f8fa;
+  margin-left: 135px;
+  background-color: rgb(29, 161, 242);
+  cursor: pointer;
+}
+
+.posts_section{
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.post{
+  padding: 5px;
+  border-bottom: 1px solid hsl(205, 16%, 71%);
+}
+
+.post_header{
+  display: flex;
+}
+
+.post_header img{
+  border-radius: 50%;
+  height: 40px;
+}
+
+.post_header img:nth-child(1){
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.post_header h3 {
+  font-size: 15px;
+  margin: 15px 0 5px 15px;
+}
+
+.post_header .handle{
+  color: rgb(101, 119, 134);
+}
+
+.post_body{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.post_body img{
+  width: 80%;
+  object-fit: contain;
+  border-radius: 20px;
+  margin-left: 10%;
+}
+
+.post_body p{
+  line-height: 20px;
+  margin: 0;
+}
+
+.post_icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  color: #1da1f2;
+}
+
+.post_icons span{
+  cursor: pointer;
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.post_icons span i{
+  position: absolute;
+  top: 6px;
+  left: 6px;
+}
+
+.post_icons span:first-child:hover{
+  background-color: rgba(29, 161, 242, 0.5);
+}
+
+.post_icons span:nth-child(2):hover{
+  color: rgb(29, 242, 82);
+  background-color: rgba(29, 242, 82, 0.4);
+}
+
+.post_icons span:nth-child(3):hover{
+  color: rgb(211, 18, 108);
+  background-color: rgba(255, 0, 140, 0.645);
+}
+
+.post_icons span:nth-child(4):hover{
+  background-color: rgba(29, 161, 242, 0.5);
+}
+
 .widget-input{
     display: flex;
     align-items: center;
