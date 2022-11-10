@@ -7,7 +7,7 @@
   body {
     display: flex;
     height: 100vh;
-    max-width: 100%;
+    width: 100%;
     padding: 0 10px;
     overflow-x: hidden;
   }
@@ -66,7 +66,7 @@
   
 section{
   position: absolute;
-  left: 27.3%;
+  left: 27%;
   display: flex;
 }
 
@@ -80,13 +80,10 @@ section{
 .feeds .feeds_header{
   position: sticky;
   top: 0;
-  border-bottom: 1px solid rgba(101, 119, 134, 0.4);
-  padding: 15px 20px;
+  padding:25px 20px;
   cursor: pointer;
-  background-color: rgba(226, 233, 238, 0.4);
+  background-color: rgba(225, 232, 237, 0.5);
 }
-/* 
-.feeds .feeds_header: */
 
 .feeds h2{
   font-weight: 800;
@@ -280,7 +277,7 @@ section{
     padding: 10px;
     border-radius: 10px;
     margin-top: 5px;
-    width: 330px;
+    width: 100%;
     
     }
     .widget-input input{
@@ -296,9 +293,11 @@ section{
     }
 .widget-trends-container{
         width: 100%;
+        min-height: 100vh;
         background-color: #f5f8fa;
-        border-radius: 8px;
-        padding: 0 10px;
+        margin-top: 10px;
+        border-radius: 10px;
+        padding: 10px;
 }
 .widget-trends-section h3{
         font-size: 24px;
