@@ -281,14 +281,14 @@ section{
 }
 
 .widget-input{
-    display: flex;
-    align-items: center;
-    background-color: #e1e8ed;
-    padding: 10px;
-    border-radius: 120px;
-    width: 350px;
-    position: sticky;
+  display: flex;
+  align-items: center;
+  background-color: #e1e8ed;
+  padding: 10px;
+  border-radius: 120px;
+  width: 350px;
 }
+
 .widget-input input{
   border: none;
   background-color: #e1e8ed;
