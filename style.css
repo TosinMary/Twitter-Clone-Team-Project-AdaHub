@@ -181,7 +181,7 @@ section{
 .posts_section{
   display: flex;
   flex-direction: column;
-  padding: 15px;
+  .padding: 15px;
 }
 
 .post{
@@ -189,8 +189,14 @@ section{
   border-bottom: 1px solid hsl(205, 16%, 71%);
 }
 
+.post:hover{
+  background-color: rgba(225, 232, 237, 0.5);
+  cursor: pointer;
+}
+
 .post_header{
   display: flex;
+  padding: 10px;
 }
 
 .post_header img{
