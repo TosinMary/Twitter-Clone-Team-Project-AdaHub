@@ -49,20 +49,20 @@
     transition: color 100ms ease-out;
   }
   
-  .sidebar.active {
-    color: #50b7f5;
-  }
+.sidebar.active {
+  color: #50b7f5;
+}
   
-  .btn {
-    width: 100%;
-    background-color: #50b7f5;
-    border: none;
-    color: white;
-    font-weight: 900;
-    border-radius: 30px;
-    height: 50px;
-    margin-top: 10px;
-  }
+.btn {
+  width: 100%;
+  background-color: #50b7f5;
+  border: none;
+  color: white;
+  font-weight: 900;
+  border-radius: 30px;
+  height: 50px;
+  margin-top: 10px;
+}
   
 section{
   position: absolute;
