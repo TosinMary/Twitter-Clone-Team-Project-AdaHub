@@ -181,7 +181,6 @@ section{
 .posts_section{
   display: flex;
   flex-direction: column;
-  .padding: 15px;
 }
 
 .post{
